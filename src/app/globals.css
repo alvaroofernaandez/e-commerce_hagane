@@ -7,3 +7,13 @@
     overflow-x: hidden;
   }
 }
+
+@layer components{
+  .header_top_icon_wrapper{
+    @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-teal-200 hover:text-white;
+  }
+
+  .header_top_icon_wrapper2{
+    @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-black hover:text-white;
+  }
+}
