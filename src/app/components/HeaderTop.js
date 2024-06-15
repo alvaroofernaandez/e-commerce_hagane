@@ -11,13 +11,13 @@ const HeaderTop = () => {
                     {/* Este es la parte izquierda del Header, donde ubico los botones que redirigen a las RRSS */}
                     <div className="hidden lg:flex gap-1">
                         <div className="header_top_icon_wrapper">
-                            <BsInstagram />
+                            <a href="https://www.instagram.com/alvaroofernaandez_/"><BsInstagram/></a>
                         </div>
                         <div className="header_top_icon_wrapper">
-                            <BsTwitterX />
+                            <a href="https://x.com/alvaroofdzam"><BsTwitterX /></a>
                         </div>
                         <div className="header_top_icon_wrapper">
-                            <BsLinkedin />
+                            <a href="https://www.linkedin.com/in/álvaro-fernández-amaro-6527b929b/"><BsLinkedin /></a>
                         </div>
                     </div>
                     {/* Este es la parte central del Header, donde simplemente añadire una frase*/}
