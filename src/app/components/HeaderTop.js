@@ -22,7 +22,7 @@ const HeaderTop = () => {
                     </div>
                     {/* Este es la parte central del Header, donde simplemente añadire una frase*/}
                     <div className="text-gray-500 text-md[14px]">
-                        <strong>THIS E-COMERCE WEBSITE IS A TEMPLATE DESIGNED BY @alvaroofernandez</strong>
+                        <strong>THIS E-COMERCE WEBSITE is a template designed by @alvaroofernandez</strong>
                     </div>
                     {/* Este es la parte derecha del Header, donde pondré un botón para poner el modo oscuro */}
                     <div className="header_top_icon_wrapper2">
