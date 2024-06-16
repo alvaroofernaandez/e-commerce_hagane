@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {BsInstagram, BsTwitterX, BsLinkedin, Bs} from "react-icons/bs"
+import {BsInstagram, BsTwitterX, BsLinkedin} from "react-icons/bs"
 import { VscColorMode } from "react-icons/vsc";
 
 const HeaderTop = () => {
