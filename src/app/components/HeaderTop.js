@@ -25,10 +25,8 @@ const HeaderTop = () => {
                         <strong>THIS E-COMERCE WEBSITE is a template designed by @alvaroofernandez</strong>
                     </div>
                     {/* Este es la parte derecha del Header, donde pondré un botón para poner el modo oscuro */}
-                    <div className="header_top_icon_wrapper">
-                        <div>
-                            <VscColorMode />
-                        </div>
+                    <div>
+                        <button className="header_top_icon_wrapper"><VscColorMode /></button>
                     </div>
                 </div>
             </div>
