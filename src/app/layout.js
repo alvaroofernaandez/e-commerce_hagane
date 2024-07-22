@@ -4,6 +4,7 @@ import HeaderTop from "./components/HeaderTop";
 import HeaderMain from "./components/HeaderMain";
 import NavBar from "./components/NavBar";
 import MobNavBar from "./components/MobNavBar";
+import Footer from "./components/Footer";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         <MobNavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
