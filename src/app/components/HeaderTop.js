@@ -5,11 +5,11 @@ import { VscColorMode } from "react-icons/vsc";
 
 const HeaderTop = () => {
     return (
-        <div className="border-b border-gray-700 hidden sm:block">
+        <div className="hidden border-b border-gray-700 sm:block">
             <div className="container py-4">
-                <div className="flex justify-between items-center">
+                <div className="flex items-center justify-between">
                     {/* Este es la parte izquierda del Header, donde ubico los botones que redirigen a las RRSS */}
-                    <div className="hidden lg:flex gap-1">
+                    <div className="hidden gap-1 lg:flex">
                         <div className="header_top_icon_wrapper">
                             <a href="https://www.instagram.com/alvaroofernaandez_/"><BsInstagram/></a>
                         </div>
@@ -23,10 +23,6 @@ const HeaderTop = () => {
                     {/* Este es la parte central del Header, donde simplemente añadire una frase*/}
                     <div className="text-white text-md[14px]">
                         <strong>THIS E-COMERCE WEBSITE is a template designed by @alvaroofernandez</strong>
-                    </div>
-                    {/* Este es la parte derecha del Header, donde pondré un botón para poner el modo oscuro */}
-                    <div>
-                        <button className="header_top_icon_wrapper"><VscColorMode /></button>
                     </div>
                 </div>
             </div>

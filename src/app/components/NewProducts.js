@@ -29,9 +29,9 @@ const NewProducts = () => {
     return (
         <div>
             <div className="container pt-16">
-                <h2 className="font-medium text-2xl pb-4 text-blue-300">New Products</h2>
+                <h2 className="pb-4 text-2xl font-medium text-blue-300">New Products</h2>
 
-                <div className="grid gridl-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10">
+                <div className="grid gap-10 gridl-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-20 xl:gap-y-10">
                     {
                         productsData.map((item, index) => {
                             return (

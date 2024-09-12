@@ -62,19 +62,19 @@ const ProductCard = ({ img, title, desc, rating, price }) => {
     };
 
     return (
-        <div className="px-4 border border-gray-700 rounded-xl max-w-[400px]">
+        <div className="px-4 border border-gray-700 rounded-xl max-w-[400px] cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
             <div>
                 <Image className="w-full h-auto" src={img} width={200} height={300} alt={title} />
             </div>
 
-            <div className="space-y-2 py-2 text-white">
-                <h2 className="text-white font-medium uppercase">{title}</h2>
+            <div className="py-2 space-y-2 text-white">
+                <h2 className="font-medium text-white uppercase">{title}</h2>
                 <p className="text-gray-500 max-w-[150px]">{desc}</p>
                 <div>{generateRating(rating)}</div>
 
-                <div className="font-bold flex gap-4">
+                <div className="flex gap-4 font-bold">
                     ${price}
-                    <del className="text-gray-500 font-normal">
+                    <del className="font-normal text-gray-500">
                         ${parseInt(price) + 50}.00
                     </del>
                 </div>
